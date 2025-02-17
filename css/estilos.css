@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color: rgb(72, 99, 60);
+    height: 100%;
+
+}
+
+/*SELECTOR DE CLASE*/
+.caja{
+background-color: rgb(211, 201, 162);
+width: 600px;
+/*UNICA FORMA DE CENTRAR UN ELEMENTO DE BLOQUE*/
+margin: 0 auto;
+margin-top: 40px;
+padding: 40px;
+border-bottom: 10px solid slateblue;
+border-left: 10px dashed rgb(51, 105, 254);
+border-right: 10px dashed rgb(145, 137, 255);
+border-top: 10px solid rgb(236, 160, 233);
+border-radius: 20px;
+border-top-right-radius: 80px ;
+outline: 20px solid rosybrown;
+}
+.caja h2{
+    margin-bottom: 40px;
+}
+
+.caja p{
+    margin-bottom: 20px;
+}
+.caja a{
+display: block;
+
+    /*ANCHO NO FUNCIONA EN ELEMNTOS DE LINEA*/
+    background-color: rgb(119, 122, 157);
+    border-radius: 10px;
+    padding: 20px 40px;
+    /*ESTA PROPIEDAD TAMPOCO FUNCIONA EN ELEMENTOS DE LINEA*/
+    margin: 20 px auto;
+    /*PROPIEDADES TIPOGrAFICAS*/
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 2s;
+
+
+}
+.caja a:hover{
+
+    background: rgb(81, 20, 86);
+    box-shadow: -10px -10px 20px rgba(240, 129, 225,.9);
+
+}
+
+
+
+/*SELECTOR DE IDENTIDAD*/
+
+#descripcion {
+     
+}
